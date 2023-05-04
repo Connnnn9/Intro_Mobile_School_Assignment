@@ -8,4 +8,8 @@ public class LoadNext_Scene : MonoBehaviour
     {
       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);   
     }
+    public void ClicktoLastScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
 }
